@@ -26,6 +26,7 @@ header .row{
 	width: 100%;
 	
   }
+ 
 
   .row {
 	max-width: 100%;
@@ -2663,3 +2664,48 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+@media only screen and (min-width: 566px) and (max-width: 768px) {
+	.row {
+		width: auto;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+}
+
+@media only screen and (min-width: 445px) and (max-width:565px) {
+	.menu {
+		position: relative;
+		top: 13px;
+		display: flex;
+		gap: 1em;
+		font-size: 16px !important;
+	}
+
+	.row {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+}
+
+@media only screen and (min-width: 250px) and (max-width:440px) {
+	.menu {
+		position: relative;
+		top: 13px;
+		display: flex;
+		gap: 0px;
+		font-size: 18px;
+	}
+
+	ol, ul {
+		margin-left: 0px;
+	}
+
+	.menu {
+		position: relative;
+		top: 13px;
+		display: flex;
+		gap: 0px;
+		font-size: 13px;
+	}
+}
